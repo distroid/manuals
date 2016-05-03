@@ -46,7 +46,7 @@
 Мы уже ранее установили `gem` для `unicorn`, теперь нам необходимо его настроить.
 Первым делом в `/etc/init.d/` добавляем файл `unicorn`
 
-[Файл unicorn](ruby_on_rails/config/unicorn)
+[Файл unicorn](./ruby_on_rails/config/unicorn)
 
 В каталоге `/etc/` создаем папку `unicorn` в ней будут лежать конфиги, для наших приложений.
 К примеру содержимое файла (`example.conf`) будет такое:
